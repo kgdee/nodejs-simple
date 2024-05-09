@@ -11,7 +11,7 @@ app.get('/favicon.ico', (req, res) => {
 
 // Define your other routes
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Test 2');
 });
 
 app.listen(port, () => {
